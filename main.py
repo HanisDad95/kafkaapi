@@ -89,7 +89,7 @@ consumer_conf = {
 }
 
 consumer = Consumer(consumer_conf)
-consumer.subscribe(['transactions_jfernandog'])
+consumer.subscribe(['transactions_jfernandogomez'])
 
 # Función para consumir el mensaje desde Kafka
 async def consume_from_kafka():
